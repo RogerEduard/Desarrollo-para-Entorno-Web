@@ -1,0 +1,28 @@
+
+<style>
+    ul{
+        font-family:comic sans ms;
+        font-size:20px;
+        margin-left: 320px;
+        text-decoration:none;
+        color:white;
+    }
+    .opciones{
+        margin-left:3px;
+        margin-right:3px;
+        border-style:solid;
+        border-color:#FF0000;
+        padding-left:6px;
+        padding-right:6px;
+        display: inline;
+</style>
+<div>
+    <ul>
+        <li class=opciones><%= link_to 'Home', root_path %></li>
+        <li class=opciones><%= link_to 'About Us', about_path %></li>
+        <li class=opciones><%= link_to 'Eduational Model', services_path %></li>
+        <li class=opciones><%= link_to 'Leadership', vision_path %></li>
+        <li class=opciones><%= link_to 'Mission', mission_path %></li>
+    </ul>
+</div>
+<hr>
